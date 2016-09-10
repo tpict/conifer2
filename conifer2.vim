@@ -246,6 +246,8 @@ exe 'hi! vimSynType'        .s:fmt_none    .s:fg_cyan   .s:bg_none
 exe 'hi! vimHiLink'         .s:fmt_none    .s:fg_blue   .s:bg_none
 exe 'hi! vimHiGroup'        .s:fmt_none    .s:fg_blue   .s:bg_none
 exe 'hi! vimGroup'          .s:fmt_undb    .s:fg_blue   .s:bg_none
+exe 'hi! vimParenSep'       .s:fmt_none    .s:fg_base1  .s:bg_none
+exe 'hi! vimSep'            .s:fmt_none    .s:fg_base1  .s:bg_none
 
 " diff highlighting
 " ---------------------------------------------------------------------
