@@ -216,6 +216,7 @@ exe 'hi! TabLineFill'    .s:fmt_none   .s:fg_base0  .s:bg_base02  .s:sp_base0
 exe 'hi! TabLineSel'     .s:fmt_revr   .s:fg_base02 .s:bg_base1   .s:sp_base0
 exe 'hi! CursorColumn'   .s:fmt_none   .s:fg_none   .s:bg_base02
 exe 'hi! CursorLine'     .s:fmt_none   .s:fg_none   .s:bg_base02  .s:sp_base1
+exe 'hi! CursorLineNr'   .s:fmt_none   .s:fg_base00 .s:bg_none    .s:fmt_bold
 exe 'hi! ColorColumn'    .s:fmt_none   .s:fg_none   .s:bg_base02
 exe 'hi! Cursor'         .s:fmt_none   .s:fg_base03 .s:bg_base0
 hi! link lCursor Cursor
